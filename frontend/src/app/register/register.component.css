@@ -1,0 +1,87 @@
+/* Background styling */
+body{
+    background-image: url('/src/assets/images/background.jpg') ;
+    min-height: 100vh;     
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Card styling */
+  .login-card {
+    background-color: #FFEDED;
+    border-radius: 20px;
+    padding: 20px;
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Logo section */
+  .logo img {
+    width: 20%;
+       
+  }
+  
+  .logo h1 {
+    font-family: 'Cursive', serif;
+    color: #6b8e23;
+    margin: 0;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 20px;
+    margin: 10px 0 5px;
+    text-align: left;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Button styling */
+  .login-button {
+    background-color: #6b8e23;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 0;
+  }
+  
+  .login-button:hover {
+    background-color: #567d1a;
+  }
+  
+  /* Links */
+  .links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+  
+  .links a {
+    color: #6b8e23;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  

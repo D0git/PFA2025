@@ -1,0 +1,15 @@
+<div class="dashboard-layout">
+  <app-header-admin></app-header-admin> 
+  <div class="dashboard-main">
+    <app-sidebar></app-sidebar> 
+    <div class="dashboard-content">
+      <router-outlet style="border-radius: 20px;">
+        <!-- Contenu dynamique ici -->
+        <div class="prompt-container">
+          <input type="text" id="promptInput"  placeholder="Par exemple : Visualiser la photosynthèse en 3D" />
+          <button>Soumettre</button>
+        </div>
+      </router-outlet>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+<div class="login-container">
+    <div class="login-card">
+      <div class="logo">
+        <img src="assets/images/logo_plante.png" alt="Herb Guide Logo" />
+        
+      </div>
+      <form ><!--(submit)="onRegister()"-->
+        
+        <label for="firstName">First Name</label>
+        <input 
+        type="text" 
+        id="firstName" 
+        [(ngModel)]="registerData.firstName"
+        name="firstName"
+        required
+        placeholder="insert your first name" />
+  
+        <label for="lastName">Last Name</label>
+        <input 
+        type="text" 
+        id="lastName" 
+        [(ngModel)]="registerData.lastName"
+        name="lastName"
+        required
+        placeholder="insert your last name" />
+  
+        <label for="phoneNumber">Phone</label>
+        <input 
+        type="text" 
+        id="phoneNumber" 
+        [(ngModel)]="registerData.phoneNumber"
+        name="phoneNumber"
+        required
+        placeholder="insert your phone number" />
+  
+        <label for="username">Email</label>
+        <input 
+        type="email" 
+        id="username" 
+        [(ngModel)]="registerData.username"
+        name="username"
+        required
+        placeholder="insert your email" />
+  
+        <label for="password">Password</label>
+        <input 
+        type="password" 
+        id="password" 
+        [(ngModel)]="registerData.password"
+        name="username"
+        required
+        placeholder="insert your password" />
+  
+        <button type="submit" class="login-button">Sign in</button>
+        <div class="links">
+          
+          <a href="#">Already have an account</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  

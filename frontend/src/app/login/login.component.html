@@ -1,0 +1,34 @@
+<div class="login-container">
+    <div class="login-card">
+      <div class="logo">
+        <img src="assets/images/logo_plante.png" alt="Herb Guide Logo" />
+        
+      </div>
+      <form ><!--(submit)="onLogin()"-->
+        <label for="username">Email</label>
+        <input 
+        type="email" 
+        id="username" 
+        [(ngModel)]="loginData.username"
+        name="username"
+        required
+        placeholder="insert your email" />
+  
+        <label for="password">Password</label>
+        <input 
+        type="password" 
+        id="password" 
+        [(ngModel)]="loginData.password"
+        name="password"
+        required
+        placeholder="insert your password" />
+  
+        <button type="submit" class="login-button">Sign in</button>
+        <div class="links">
+          <a href="#">Forgot password</a>
+          <a href="/register">Don't have an account?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  

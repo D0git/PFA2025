@@ -1,0 +1,62 @@
+/* General body and layout styling */
+.unauthorized-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EDE8DC; /* Neutral background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Main heading styling */
+  .unauthorized-container h2 {
+    color: #A5B68D; /* Earthy green for headings */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styling */
+  .unauthorized-container p {
+    color: #555; /* Slightly darker for readability */
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Styled button */
+  .unauthorized-container .back-button {
+    background-color: #C1CFA1; /* Light green */
+    color: #333; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .unauthorized-container .back-button:hover {
+    background-color: #A5B68D; /* Darker green on hover */
+    color: #fff;
+  }
+  
+  /* Add some nice animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .unauthorized-container {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  

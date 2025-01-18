@@ -1,0 +1,42 @@
+/* Stylisation de la barre latérale */
+.sidebar {
+  width: 200px; /* Largeur de la barre latérale */
+  background-color: #f8f9fa; /* Couleur de fond */
+  padding: 15px;
+}
+
+.sidebar-nav {
+  list-style: none; /* Supprime les puces */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px; /* Ajoute un espace entre les éléments */
+}
+
+.nav-link {
+  display: flex; /* Aligne les icônes et le texte horizontalement */
+  align-items: center;
+  text-decoration: none; /* Supprime le soulignement */
+  color: #000; /* Texte en noir */
+  font-weight: bold; /* Texte en gras */
+  padding: 10px; /* Espacement interne */
+  border-radius: 5px; /* Coins arrondis */
+  transition: background-color 0.3s ease; /* Animation douce */
+}
+
+.nav-link i {
+  margin-right: 10px; /* Espace entre l'icône et le texte */
+  font-size: 1.2rem; /* Taille des icônes */
+}
+
+.nav-link:hover {
+  background-color: #e8f5e9; /* Fond vert clair au survol */
+  color: #007b33; /* Texte vert foncé */
+}
+
+.nav-link.active {
+  background-color: #e8f5e9; /* Fond vert pour l'élément actif */
+  color: #6b8e23; /* Texte blanc */
+}

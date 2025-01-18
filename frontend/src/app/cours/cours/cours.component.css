@@ -1,0 +1,59 @@
+/* Centrer le titre */
+h2 {
+    margin-top: 2rem; /* Ajout d'espace au-dessus du titre */
+    text-align: center; /* Centrer le texte */
+    font-size: 2rem; /* Taille du texte */
+    color: #333; /* Couleur du texte */
+}
+
+/* Espacement entre l'en-tête et le titre */
+app-header {
+    margin-bottom: 2rem; /* Ajout d'espace sous le header */
+}
+
+/* Espacement entre les cartes */
+.cards {
+    margin-top: 2rem;
+    margin-bottom: 2rem; /* Ajout d'espace au-dessus des cartes */
+}
+
+/* Espacement entre le footer et le contenu */
+footer {
+    margin-top: 10rem; /* Espacement entre les cartes et le footer */
+}
+
+/* MEDIA QUERIES POUR LA RÉACTIVITÉ */
+
+/* Pour les écrans moyens (tablettes) */
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem; /* Réduire la taille du titre sur les tablettes */
+        margin-top: 1.5rem; /* Réduire l'espace au-dessus du titre */
+    }
+
+    .cards {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem; /* Réduire l'espace entre les cartes */
+    }
+
+    footer {
+        margin-top: 6rem; /* Réduire l'espace entre les cartes et le footer */
+    }
+}
+
+/* Pour les petits écrans (mobiles) */
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem; /* Réduire davantage la taille du titre sur les mobiles */
+        margin-top: 1rem; /* Réduire l'espace au-dessus du titre */
+    }
+
+    .cards {
+        margin-top: 1rem;
+        margin-bottom: 1rem; /* Réduire l'espace entre les cartes */
+    }
+
+    footer {
+        margin-top: 4rem; /* Réduire l'espace entre les cartes et le footer */
+    }
+}
